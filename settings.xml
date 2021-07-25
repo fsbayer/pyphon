@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <behaviours>
+<!-- Default behaviours of errors 0 and 1 cannot be changed as that would break everything
+        0: stop
+        1: stop      -->
+        2: ignore
+        3: log
+        4: confirm
+    </behaviours>
+</settings>
