@@ -1,4 +1,7 @@
 from setuptools import setup, find_packages
+# The following is just some junk to generate dependencies
+import phondler as libphondler
+langs = libphondler.phondler.LANGUAGES
 
 setup(
     name='pyphon',
@@ -10,7 +13,7 @@ setup(
     author_email='',
     description='Python sound change applier',
     install_requires=[
-        # Phond
-        'phodic @ git+https://git@github.com/fsbayer/phodic.git'
+        # Phondler
+        'phondler @ git+https://git@github.com/fsbayer/phondler.git'
     ]
 )
