@@ -10,7 +10,7 @@ setup(
     author_email='',
     description='Python sound change applier',
     install_requires=[
-        # Phodic
+        # Phond
         'phodic @ git+https://git@github.com/fsbayer/phodic.git'
     ]
 )
